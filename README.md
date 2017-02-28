@@ -1,6 +1,6 @@
 # RegExpTestor
 A regular expression testor like the rubular website  
-The window has the same look on all OS  
+With Qt5.x, The window has the same look on all OS  
 ![Screenshot](rexptest.jpg)
 
 ## Thanks to
