@@ -8,7 +8,9 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = RegExptestor
+CONFIG += c++11
+
+TARGET = regexp_testor
 TEMPLATE = app
 
 

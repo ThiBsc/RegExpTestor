@@ -93,13 +93,13 @@ void RegExWindow::printMatch(QString regex)
                 for (QString s : match.capturedTexts())
                     pteMatch->appendHtml(QString("<span>&nbsp;&nbsp;&nbsp;%1</span>").arg(s));
             }
-            pal.setColor(QPalette::WindowText, Qt::green);
+            pal.setColor(QPalette::WindowText, QColor("green"));
             statusBar->setPalette(pal);
             statusBar->showMessage("regex valid.");
         }
     }
     else{
-        pal.setColor(QPalette::WindowText, QColor("lightcoral"));
+        pal.setColor(QPalette::WindowText, QColor("red"));
         statusBar->setPalette(pal);
         statusBar->showMessage(rexp.errorString());
     }
