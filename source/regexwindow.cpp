@@ -15,6 +15,7 @@ RegExWindow::RegExWindow(QWidget *parent)
     : CustomWindow(parent)
 {
     setWindowTitle("RegExp testor");
+    setWindowIcon(QIcon("://icon/regexp_testor_icon.png"));
 
     splitter = new QSplitter(Qt::Horizontal, this);
     splitter->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);

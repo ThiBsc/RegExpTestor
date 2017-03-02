@@ -30,3 +30,6 @@ HEADERS  += header/customwindow.h \
     header/windowbuttonmaximize.h \
     header/windowbuttonclose.h \
     header/regexwindow.h
+
+RESOURCES += \
+    icon.qrc

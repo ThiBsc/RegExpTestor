@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/regexp_testor_icon.png</file>
+    </qresource>
+</RCC>
