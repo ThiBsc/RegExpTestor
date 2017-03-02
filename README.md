@@ -8,7 +8,8 @@ bash for the postinst script
 
 ## Install
 1. move into the package folder
-2. Use the package manager or write in the shell>`sudo dpkg -i regexp_testor.deb` or `sudo gdebi regexp_testor.deb`
+2. Use the package manager or write in the shell>  
+`sudo dpkg -i regexp_testor.deb` or `sudo gdebi regexp_testor.deb`
 
 That's all
 
