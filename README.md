@@ -7,8 +7,9 @@ With Qt5.x, The window should have the same look on all OS
 bash for the postinst script
 
 ## Install
-1. move into the folder `package`
-2. Use the package manager or write in the shell>  
+1. Download the file on the [release page!](https://github.com/thibDev/RegExpTestor/releases)
+2. Move into the folder `package`
+3. Use the package manager or write in the shell>  
 `sudo dpkg -i regexp_testor.deb` or `sudo gdebi regexp_testor.deb`
 
 That's all
