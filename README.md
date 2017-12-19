@@ -1,4 +1,5 @@
 # RegExpTestor
+[![Build Status](https://travis-ci.org/thibDev/RegExpTestor.svg?branch=master)](https://travis-ci.org/thibDev/RegExpTestor)  
 A regular expression testor like the rubular website  
 With Qt5.x, The window should have the same look on all OS  
 ![Screenshot](rexptest.jpg)
